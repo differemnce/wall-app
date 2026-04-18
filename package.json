@@ -18,16 +18,17 @@
     "electron-builder": "^24.6.0",
     "react-scripts": "5.0.1"
   },
-"build": {
-  "appId": "com.wall.app",
-  "files": [
-    "build/**/*",
-    "main.js"
-  ],
-  "extraMetadata": {
-    "main": "main.js"
-  },
-  "win": {
-    "target": "nsis"
+  "build": {
+    "appId": "com.wall.app",
+    "files": [
+      "build/**/*",
+      "main.js"
+    ],
+    "extraMetadata": {
+      "main": "main.js"
+    },
+    "win": {
+      "target": "nsis"
+    }
   }
 }
