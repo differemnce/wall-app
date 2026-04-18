@@ -1,12 +1,12 @@
 {
   "name": "wall-app",
-  "homepage": "./",
   "version": "1.0.0",
+  "homepage": "./",
   "private": true,
   "main": "main.js",
-"scripts": {
-  "build": "react-scripts build",
-  "dist": "npm run build && electron-builder"
+  "scripts": {
+    "build": "react-scripts build",
+    "dist": "npm run build && electron-builder"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -18,13 +18,14 @@
     "electron-builder": "^24.6.0",
     "react-scripts": "5.0.1"
   },
-"build": {
-  "appId": "com.wall.app",
-  "files": [
-    "build/**/*",
-    "main.js"
-  ],
-  "win": {
-    "target": "nsis"
+  "build": {
+    "appId": "com.wall.app",
+    "files": [
+      "build/**/*",
+      "main.js"
+    ],
+    "win": {
+      "target": "nsis"
+    }
   }
 }
